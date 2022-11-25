@@ -1,0 +1,60 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+article{
+    width: 95%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: center;
+    padding: 15px 0;
+    border: solid rgb(237, 237, 237) 1px;
+}
+
+section{
+    text-align: justify;
+    display: block;
+    width: 47%;
+    border-radius: 5px;
+    border: solid 1px rgb(124, 124, 124);
+}
+
+.left{
+    margin-right: 15px;
+}
+
+.right{
+    margin-left: 15px;
+}
+
+section p{
+    padding: 0 20px;
+}
+
+h1{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+h1.titulo{
+    color: black;
+    background-color: white;
+}
+
+article#segundo section{
+    width: 30%;
+    margin: 0 20px;
+}
+
+@media only screen and (max-device-width: 1350px) {
+    article#segundo section{
+        width: 100%;
+        margin: 20px 20px;
+    }
+}
+  
